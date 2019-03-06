@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1506" started-at="2019-03-05T11:14:33Z" finished-at="2019-03-05T11:14:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1506" started-at="2019-03-05T11:14:33Z" finished-at="2019-03-05T11:14:34Z">
+      <class name="practiceSet.ReadExcelData">
+        <test-method status="PASS" signature="ExcelReadCode()[pri:0, instance:practiceSet.ReadExcelData@5faeada1]" name="ExcelReadCode" duration-ms="1443" started-at="2019-03-05T11:14:33Z" finished-at="2019-03-05T11:14:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcelReadCode -->
+      </class> <!-- practiceSet.ReadExcelData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

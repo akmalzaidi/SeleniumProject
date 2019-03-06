@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <exclude name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="dummyApp.Login_TestCase">
+        <methods>
+          <include name="clickOn_logOut"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="heading_Dashboard"/>
+          <include name="afterClass"/>
+          <include name="clickOn_Operatorbtn"/>
+          <include name="setup_Browser"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="click_on_addUser"/>
+          <include name="beforeClass"/>
+          <include name="fill_form"/>
+          <include name="application_title_dashboard"/>
+          <include name="click_onUser"/>
+          <include name="beforeMethod"/>
+          <include name="getTabledata"/>
+          <include name="url_Dashboard"/>
+        </methods>
+      </class> <!-- dummyApp.Login_TestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

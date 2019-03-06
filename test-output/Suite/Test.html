@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 20 16:01:34 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>37 seconds (37358 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dummyApp.Login_TestCase.application_title_dashboard()'><b>application_title_dashboard</b><br>Test class: dummyApp.Login_TestCase</td>
+<td></td>
+<td>0</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.blank_Username_Password()'><b>blank_Username_Password</b><br>Test class: dummyApp.Login_TestCase<br>Test method: blank username and password</td>
+<td></td>
+<td>0</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.check_Button_Color()'><b>check_Button_Color</b><br>Test class: dummyApp.Login_TestCase<br>Test method: check btn color</td>
+<td></td>
+<td>0</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.check_Links()'><b>check_Links</b><br>Test class: dummyApp.Login_TestCase<br>Test method: check links</td>
+<td></td>
+<td>0</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.check_PlaceHolder_Password()'><b>check_PlaceHolder_Password</b><br>Test class: dummyApp.Login_TestCase<br>Test method: check placeholder password</td>
+<td></td>
+<td>0</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.check_PlaceHolder_Username()'><b>check_PlaceHolder_Username</b><br>Test class: dummyApp.Login_TestCase<br>Test method: check placeholder</td>
+<td></td>
+<td>0</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.clickOn_Operatorbtn()'><b>clickOn_Operatorbtn</b><br>Test class: dummyApp.Login_TestCase</td>
+<td></td>
+<td>12</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.clickOn_logOut()'><b>clickOn_logOut</b><br>Test class: dummyApp.Login_TestCase</td>
+<td></td>
+<td>0</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.click_onUser()'><b>click_onUser</b><br>Test class: dummyApp.Login_TestCase</td>
+<td></td>
+<td>0</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.click_on_addUser()'><b>click_on_addUser</b><br>Test class: dummyApp.Login_TestCase</td>
+<td></td>
+<td>2</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.fill_form()'><b>fill_form</b><br>Test class: dummyApp.Login_TestCase</td>
+<td></td>
+<td>1</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.getTabledata()'><b>getTabledata</b><br>Test class: dummyApp.Login_TestCase</td>
+<td></td>
+<td>9</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.heading_Dashboard()'><b>heading_Dashboard</b><br>Test class: dummyApp.Login_TestCase</td>
+<td></td>
+<td>2</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.invalid_username_password()'><b>invalid_username_password</b><br>Test class: dummyApp.Login_TestCase<br>Test method: invalid username and password</td>
+<td></td>
+<td>4</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.login_Session()'><b>login_Session</b><br>Test class: dummyApp.Login_TestCase<br>Test method: session title</td>
+<td></td>
+<td>0</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.url_Dashboard()'><b>url_Dashboard</b><br>Test class: dummyApp.Login_TestCase</td>
+<td></td>
+<td>0</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.valid_username_password()'><b>valid_username_password</b><br>Test class: dummyApp.Login_TestCase<br>Test method: valid username and password</td>
+<td></td>
+<td>1</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.verify_ApplicationTitle()'><b>verify_ApplicationTitle</b><br>Test class: dummyApp.Login_TestCase<br>Test method: to check application title</td>
+<td></td>
+<td>0</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.verify_Title()'><b>verify_Title</b><br>Test class: dummyApp.Login_TestCase<br>Test method: to verify title</td>
+<td></td>
+<td>0</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+<tr>
+<td title='dummyApp.Login_TestCase.verify_Url()'><b>verify_Url</b><br>Test class: dummyApp.Login_TestCase<br>Test method: to check project url is correct</td>
+<td></td>
+<td>0</td>
+<td>dummyApp.Login_TestCase@30a3107a</td></tr>
+</table><p>
+</body>
+</html>
